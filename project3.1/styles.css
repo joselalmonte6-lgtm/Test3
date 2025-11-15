@@ -1,0 +1,17 @@
+/* styles.css - minimal styling */
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f6f7fb; color:#222; }
+.container { max-width:900px; margin:20px auto; padding:16px; background:#fff; border-radius:8px; box-shadow:0 1px 6px rgba(0,0,0,0.06); }
+.site-header, .site-footer { background:#222; color:#fff; padding:10px 0; }
+.site-header h1 { display:inline-block; margin:0 20px; font-size:20px; }
+.site-header nav { display:inline-block; float:right; margin-right:20px; }
+.site-header nav a, .site-header nav span { color:#fff; margin-left:12px; text-decoration:none; }
+h2 { margin-top:0; }
+.table { width:100%; border-collapse:collapse; }
+.table th, .table td { padding:8px 6px; border-bottom:1px solid #eee; text-align:left; }
+.error { color:#9b1c1c; background:#ffdede; padding:6px; border-radius:4px; }
+.success { color:#155724; background:#d4edda; padding:6px; border-radius:4px; }
+input[type="text"], input[type="password"], input[type="date"], textarea, input[type="number"] { width:100%; padding:8px; margin:6px 0; box-sizing:border-box; border:1px solid #ccc; border-radius:4px; }
+button { padding:8px 14px; border:0; background:#007bff; color:#fff; border-radius:4px; cursor:pointer; }
+a { color:#007bff; text-decoration:none; }
+.review { border:1px solid #eee; padding:8px; margin-bottom:8px; border-radius:4px; background:#fafafa; }
+.game-desc { margin-bottom:16px; }
